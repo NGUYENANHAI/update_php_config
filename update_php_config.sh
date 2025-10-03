@@ -2,8 +2,8 @@
 
 # Danh sach thay doi
 DISABLE_FUNCTIONS="system,passthru,shell_exec,escapeshellcmd,dl,show_source,posix_kill,posix_mkfifo,posix_setpgid,posix_setsid,posix_setuid,posix_setgid,posix_seteuid,posix_setegid,posix_uname"
-MAX_EXECUTION_TIME=3000
-MAX_INPUT_TIME=3000
+MAX_EXECUTION_TIME=10000
+MAX_INPUT_TIME=10000
 MAX_INPUT_VARS=3000
 MEMORY_LIMIT="512M"
 POST_MAX_SIZE="1024M"
